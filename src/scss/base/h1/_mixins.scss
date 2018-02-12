@@ -1,0 +1,5 @@
+@mixin base--h1 {
+  font-size: 3rem;
+  font-weight: get("weight bold");
+  font-family: get("headers font");
+}

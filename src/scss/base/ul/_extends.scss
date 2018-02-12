@@ -1,0 +1,31 @@
+//////////////////////////////
+// Remove once Libsass 3.2 is released
+//////////////////////////////
+%base--list {
+  display: table;
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+
+  li,
+  .base--li {
+    display: table-row;
+    counter-increment: table-ol;
+    font-size: 1.125rem;
+
+    &:before {
+      display: table-cell;
+      padding-right: .4em;
+      text-align: right;
+    }
+  }
+}
+
+%base--ul {
+  @include base--list('•') {
+    font-size: 1.125rem;
+    color: darken(get('warm gray 2'), 15%);
+    text-align: right;
+    padding-right: 0.6rem;
+  }
+}

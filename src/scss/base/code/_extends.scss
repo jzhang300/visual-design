@@ -1,0 +1,8 @@
+%base--code {
+  @extend %font--mono;
+  padding: .3em .4em;
+  font-size: 0.9rem;
+  color: get('red');
+  background-color: lighten(color('white', 20), 2%);
+  font-family: get('monospace');
+}

@@ -1,0 +1,113 @@
+/*
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+*/
+
+$hljs-base:    lighten(color('white', 20), 2%);
+$hljs-mono-1:  lighten(get('gray'), 10%);
+$hljs-mono-2:  #818896;
+$hljs-mono-3:  color('gray', 10);
+$hljs-hue-1:   #56b6c2;
+$hljs-hue-2:   #409ad5; // lighten(color('blue', 20), 10%);
+$hljs-hue-3:   #b16ade; //#9f69d0;
+// $hljs-hue-4:   #34a716;
+$hljs-hue-4:   #ff6371; // #db2780;
+$hljs-hue-5:   #e06c75;
+$hljs-hue-5-2: #be5046;
+$hljs-hue-6:   #fda70a; // #d19a66;
+$hljs-hue-6-2: #0bbeaa; // #00b4a0;
+
+pre > code,
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+  color: $hljs-mono-1;
+  background: $hljs-base;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: $hljs-mono-3;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: $hljs-hue-3;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: $hljs-hue-5;
+}
+
+.hljs-literal {
+  color: $hljs-hue-1;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: $hljs-hue-4;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: $hljs-hue-6-2;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: $hljs-hue-6;
+}
+
+.hljs-class,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: $hljs-hue-2;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.hljs-value {
+  color: $hljs-hue-6-2;
+}

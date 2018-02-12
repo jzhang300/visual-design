@@ -1,0 +1,9 @@
+._container {
+  width: 100%;
+  margin: auto;
+  padding: 0rem get("rhythm");
+
+  @include breakpoint(get("medium")) {
+    width: get("medium");
+  }
+}

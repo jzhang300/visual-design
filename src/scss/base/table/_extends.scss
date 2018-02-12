@@ -1,0 +1,20 @@
+%base--table {
+  width: 100%;
+}
+
+%base--thead {
+  font-weight: bold;
+}
+
+%base--th {
+  padding: 1rem;
+  text-align: left;
+}
+
+%base--td {
+  padding: 1rem;
+}
+
+%base--tr {
+  border-bottom: 1px solid color('white', 30);
+}

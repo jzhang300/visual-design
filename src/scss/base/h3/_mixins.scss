@@ -1,0 +1,5 @@
+@mixin base--h3 {
+  font-size: ms(2);
+  font-weight: 600;
+  font-family: get("headers font");
+}

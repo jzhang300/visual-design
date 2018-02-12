@@ -1,0 +1,47 @@
+$serif-font: (
+  "TisaPro",
+  Georgia,
+  Utopia,
+  Charter,
+  serif
+);
+$sans-serif-font: (
+  "Source Sans pro",
+  Verdana Pro,
+  sans-serif
+);
+$calligraphic-font: ("selima");
+$monospace-font: (
+  menlo,
+  source-code-pro,
+  "Inconsolata",
+  Monaco,
+  Consolas,
+  "Courier New",
+  Courier
+);
+
+$vd-sans-serif-1: (
+  "Avenir Next",
+  sans-serif
+);
+$vd-sans-serif-2: (
+  "Roboto",
+  sans-serif
+);
+
+$TypographySettings: (
+  "serif": $serif-font,
+  "sans serif": $sans-serif-font,
+  "calligraphic": $calligraphic-font,
+  "headers font": $vd-sans-serif-1,
+  "text font": $vd-sans-serif-2,
+  "monospace": $monospace-font,
+  "weight bold": 700,
+  "weight medium": 600,
+  "weight normal": 400,
+  "weight light": 200,
+  "rhythm": 2rem
+);
+
+$GlobalSettings: map-merge($GlobalSettings, $TypographySettings);
