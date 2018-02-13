@@ -89,7 +89,7 @@ $.when($.ajax("/pages/articles")).done(function(articles) {
     $(".hero").each(function() {
       // reveal when scrolling down                 // reveal when scrolling up
       if (
-        this.getBoundingClientRect().top < 600 &&
+        this.getBoundingClientRect().top < 200 &&
         this.getBoundingClientRect().top > -200
       ) {
         $(this).removeClass("hero_hidden");
@@ -98,7 +98,7 @@ $.when($.ajax("/pages/articles")).done(function(articles) {
     $(".section-features").each(function() {
       // reveal when scrolling down                 // reveal when scrolling up
       if (
-        this.getBoundingClientRect().top < 600 &&
+        this.getBoundingClientRect().top < 200 &&
         this.getBoundingClientRect().top > -200
       ) {
         $(this).removeClass("section-features_hidden");
@@ -107,7 +107,7 @@ $.when($.ajax("/pages/articles")).done(function(articles) {
     $(".section-find-playlist").each(function() {
       // reveal when scrolling down                 // reveal when scrolling up
       if (
-        this.getBoundingClientRect().top < 600 &&
+        this.getBoundingClientRect().top < 200 &&
         this.getBoundingClientRect().top > -200
       ) {
         $(this).removeClass("section-find-playlist_hidden");
@@ -116,7 +116,7 @@ $.when($.ajax("/pages/articles")).done(function(articles) {
     $(".section-how-it-works").each(function() {
       // reveal when scrolling down                 // reveal when scrolling up
       if (
-        this.getBoundingClientRect().top < 600 &&
+        this.getBoundingClientRect().top < 200 &&
         this.getBoundingClientRect().top > -200
       ) {
         $(this).removeClass("section-how-it-works_hidden");
