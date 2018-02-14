@@ -1,20 +1,16 @@
 /**
-* Watches all the files for changes
-**/
+ * Watches all the files for changes
+ **/
 
-'use strict';
+"use strict";
 
-var gulp = require('gulp');
+var gulp = require("gulp");
 
-var tasks = [
-  'styles',
-  'scripts',
-  'icon-fonts'
-];
+var tasks = ["styles", "scripts", "icon-fonts", "html"];
 
 var watches = tasks.map(function(element) {
-  return element + ':watch';
+  return element + ":watch";
 });
 
-gulp.task('compile', tasks);
-gulp.task('watch', watches);
+gulp.task("compile", tasks);
+gulp.task("watch", watches);
