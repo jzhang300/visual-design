@@ -15,7 +15,7 @@ var app = express();
 // all environments
 app.set("port", process.env.PORT || 3000);
 app.use(logger("dev"));
-app.use(express.static(path.resolve(__dirname, "public")));
+app.use(express.static(path.resolve(__dirname, "docs")));
 
 // development only
 if ("development" == app.get("env")) {

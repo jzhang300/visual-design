@@ -17,7 +17,7 @@
 "use strict";
 
 var src = "./src";
-var dest = "./public";
+var dest = "./docs";
 
 module.exports = {
   paths: {
