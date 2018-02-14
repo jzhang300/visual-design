@@ -1,5 +1,6 @@
 @mixin base--h3 {
   font-size: ms(2);
-  font-weight: 600;
+  font-weight: 700;
   font-family: get("headers font");
+  letter-spacing: -0.3px;
 }

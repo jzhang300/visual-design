@@ -343,7 +343,7 @@ body {
   margin: 0rem;
   background: #FFFFFF;
   color: #333;
-  font-family: "Roboto", sans-serif;
+  font-family: "Avenir Next", sans-serif;
   font-weight: 200;
   line-height: 1.5; }
   body ::-moz-selection {
@@ -355,37 +355,43 @@ h1,
 .base--h1 {
   font-size: 3rem;
   font-weight: 700;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px; }
 
 h2,
 .base--h2 {
   font-size: 1.75781rem;
   font-weight: 700;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px; }
 
 h3,
 .base--h3 {
   font-size: 1.49962rem;
-  font-weight: 600;
-  font-family: "Avenir Next", sans-serif; }
+  font-weight: 700;
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px; }
 
 h4,
 .base--h4 {
   font-size: 1.40625rem;
   font-weight: 600;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px; }
 
 h5,
 .base--h5 {
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px; }
 
 h6,
 .base--h6 {
   font-size: 0.9rem;
   font-weight: 600;
-  font-family: "Avenir Next", sans-serif; }
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px; }
 
 .base--input, .base--color-input, .base--date-input, .base--datetime-local-input, .base--email-input, .base--file-input, .base--hidden-input, .base--month-input, .base--number-input, .base--password-input, .base--range-input, .base--search-input, .base--tel-input, .base--text-input, .base--time-input, .base--url-input, .base--week-input, .base--select {
   width: 100%;
@@ -518,7 +524,7 @@ h6,
   padding: 0.5em 1em;
   color: #FFFFFF;
   font-weight: bold;
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Poppins", "Avenir Next", sans-serif;
   background-color: #4e4e4e;
   border: 3px solid #4e4e4e;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.26);
@@ -541,7 +547,7 @@ h6,
   padding: 0.5em 1em;
   color: #FFFFFF;
   font-weight: bold;
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Poppins", "Avenir Next", sans-serif;
   background-color: #2ECC71;
   border: 3px solid #2ECC71;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.26);
@@ -564,7 +570,7 @@ h6,
   padding: 0.5em 1em;
   color: #FFFFFF;
   font-weight: bold;
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Poppins", "Avenir Next", sans-serif;
   background-color: #E67E22;
   border: 3px solid #E67E22;
   box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.26);
@@ -611,10 +617,10 @@ img {
 p,
 .base--p {
   font-size: 1.125rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Avenir Next", sans-serif;
   font-weight: 400;
   color: #5e5e5e;
-  line-height: 1.675; }
+  line-height: 1.5; }
 
 code,
 .base--code {
@@ -1599,5 +1605,6 @@ pre > code,
 .section-blog--description {
   font-size: 1.125rem;
   font-weight: 600;
-  font-family: "Avenir Next", sans-serif;
+  font-family: "Poppins", "Avenir Next", sans-serif;
+  letter-spacing: -0.3px;
   margin-bottom: 1rem; }
