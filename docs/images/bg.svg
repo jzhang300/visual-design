@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="510px" height="510px" viewBox="0 0 510 510" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="96.9507334%" id="radialGradient-1">
+            <stop stop-color="#FFF7D4" offset="0%"></stop>
+            <stop stop-color="#FFBB9B" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-2">
+            <stop stop-color="#FFEFA1" offset="0%"></stop>
+            <stop stop-color="#FF9665" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-3">
+            <stop stop-color="#FFEA89" offset="0%"></stop>
+            <stop stop-color="#FB641E" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-4" cx="254" cy="254" r="149"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="url(#radialGradient-1)" cx="255" cy="255" r="255"></circle>
+            <circle id="Oval" fill="url(#radialGradient-2)" cx="255" cy="255" r="202"></circle>
+            <g id="Oval">
+                <use fill="#FB6417" xlink:href="#path-4"></use>
+                <use fill="url(#radialGradient-3)" xlink:href="#path-4"></use>
+            </g>
+            <circle id="Oval" fill="#FFD78E" cx="254.5" cy="254.5" r="77.5"></circle>
+        </g>
+    </g>
+</svg>

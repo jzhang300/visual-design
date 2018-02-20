@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="747px" height="747px" viewBox="0 0 747 747" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="95.3953017%" id="radialGradient-1">
+            <stop stop-color="#FFF7D4" stop-opacity="0.387284873" offset="0%"></stop>
+            <stop stop-color="#FFF7F3" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="96.9507334%" id="radialGradient-2">
+            <stop stop-color="#FFF7D4" offset="0%"></stop>
+            <stop stop-color="#FFDBCA" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="96.9507334%" id="radialGradient-3">
+            <stop stop-color="#FFF7D4" offset="0%"></stop>
+            <stop stop-color="#FFBB9B" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-4">
+            <stop stop-color="#FFEFA1" offset="0%"></stop>
+            <stop stop-color="#FF9665" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-5">
+            <stop stop-color="#FFEA89" offset="0%"></stop>
+            <stop stop-color="#FB641E" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <circle id="Oval" fill="url(#radialGradient-1)" cx="373.5" cy="373.5" r="373.5"></circle>
+            <circle id="Oval" fill="url(#radialGradient-2)" cx="374" cy="374" r="308"></circle>
+            <circle id="Oval" fill="url(#radialGradient-3)" cx="374" cy="374" r="255"></circle>
+            <circle id="Oval" fill="url(#radialGradient-4)" cx="374" cy="374" r="202"></circle>
+            <circle id="Oval" fill="url(#radialGradient-5)" cx="373" cy="373" r="149"></circle>
+            <circle id="Oval" fill="#FFD78E" cx="373.5" cy="373.5" r="77.5"></circle>
+        </g>
+    </g>
+</svg>
