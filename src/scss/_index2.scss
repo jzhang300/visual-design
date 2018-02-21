@@ -1,4 +1,5 @@
 .index-2 {
+  $yellow-80: #ffec99;
   $orange-10: #321001;
   $orange-20: #642102;
   $orange-30: #973102;
@@ -24,11 +25,14 @@
   // $primary-1: get("vd-gray-dark");
   $primary-1: $blue-40;
   $secondary-1: $orange-50;
+  $highlight-1: $yellow-80;
   // $primary-2: get("vd-gray");
   $primary-2: $warm-gray;
   $bg-dark: $blue-20;
   $bg-light: $warm-gray;
+  $bg-color-1: $yellow-80;
   $text-color: #333333;
+  $text-color-2: #404040;
 
   // background-color: $bg-light;
 
@@ -143,6 +147,40 @@
     }
   }
 
+  .section-about {
+    background-color: $bg-color-1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    &_hidden {
+      .section-about--description {
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(0.85);
+      }
+      .section-about--description_highlight {
+        visibility: hidden;
+        opacity: 0;
+        transform: scale(0.85);
+      }
+    }
+    &--description {
+      font-weight: 500;
+      font-family: get("text font");
+      color: $text-color-2;
+      transform: scale(1);
+      opacity: 1;
+      transition: 0.3s;
+
+      &_highlight {
+        font-weight: 500;
+        color: $blue-50;
+        transition-delay: 3s;
+        transition: 0.3s;
+      }
+    }
+  }
+
   .section-features {
     &_hidden {
       .section-features--sub-header {
@@ -238,7 +276,8 @@
   }
 
   .section-how-it-works {
-    background-color: get("vd-gray-light");
+    background-color: $primary-1;
+    color: white;
 
     &_hidden {
       .section-how-it-works--step {
@@ -254,10 +293,16 @@
     }
     &--header {
       margin-bottom: 1rem;
+      color: white;
     }
 
     &--sub-header {
       margin-bottom: 1rem;
+      color: white;
+    }
+
+    &--description {
+      color: white;
     }
 
     &--step {
@@ -279,10 +324,14 @@
     &--sign-up-button {
       transition: 0.5s;
       transition-delay: 2s;
+      background-color: $yellow-80;
+      color: $text-color-2;
     }
   }
 
   .section-blog {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     &--header {
       margin-bottom: 1rem;
     }

@@ -1718,6 +1718,37 @@ pre > code,
   .index-2 .hero--button {
     margin-top: 1rem; }
 
+.index-2 .section-about {
+  background-color: #ffec99;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .index-2 .section-about_hidden .section-about--description {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85); }
+  .index-2 .section-about_hidden .section-about--description_highlight {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85); }
+  .index-2 .section-about--description {
+    font-weight: 500;
+    font-family: "Avenir Next", sans-serif;
+    color: #404040;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .index-2 .section-about--description_highlight {
+      font-weight: 500;
+      color: #286ed7;
+      -webkit-transition-delay: 3s;
+              transition-delay: 3s;
+      -webkit-transition: 0.3s;
+      transition: 0.3s; }
+
 .index-2 .section-features_hidden .section-features--sub-header {
   visibility: hidden;
   opacity: 0;
@@ -1809,7 +1840,8 @@ pre > code,
               transition-delay: 1s; }
 
 .index-2 .section-how-it-works {
-  background-color: #dfdfdf; }
+  background-color: #2058ac;
+  color: white; }
   .index-2 .section-how-it-works_hidden .section-how-it-works--step {
     visibility: hidden;
     opacity: 0;
@@ -1821,9 +1853,13 @@ pre > code,
     -webkit-transform: translateY(4rem);
             transform: translateY(4rem); }
   .index-2 .section-how-it-works--header {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: white; }
   .index-2 .section-how-it-works--sub-header {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: white; }
+  .index-2 .section-how-it-works--description {
+    color: white; }
   .index-2 .section-how-it-works--step {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -1842,14 +1878,18 @@ pre > code,
     -webkit-transition: 0.5s;
     transition: 0.5s;
     -webkit-transition-delay: 2s;
-            transition-delay: 2s; }
+            transition-delay: 2s;
+    background-color: #ffec99;
+    color: #404040; }
 
-.index-2 .section-blog--header {
-  margin-bottom: 1rem; }
-
-.index-2 .section-blog--description {
-  font-size: 1.125rem;
-  font-weight: 600;
-  font-family: "Poppins", "Avenir Next", sans-serif;
-  letter-spacing: -0.3px;
-  margin-bottom: 1rem; }
+.index-2 .section-blog {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  .index-2 .section-blog--header {
+    margin-bottom: 1rem; }
+  .index-2 .section-blog--description {
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: "Poppins", "Avenir Next", sans-serif;
+    letter-spacing: -0.3px;
+    margin-bottom: 1rem; }
