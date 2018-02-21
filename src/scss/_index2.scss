@@ -175,8 +175,11 @@
       &_highlight {
         font-weight: 500;
         color: $blue-50;
-        transition-delay: 3s;
-        transition: 0.3s;
+        padding-top: 1rem;
+      }
+
+      &:nth-of-type(2) {
+        transition-delay: 0.5s;
       }
     }
   }

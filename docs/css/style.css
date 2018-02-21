@@ -1744,10 +1744,10 @@ pre > code,
     .index-2 .section-about--description_highlight {
       font-weight: 500;
       color: #286ed7;
-      -webkit-transition-delay: 3s;
-              transition-delay: 3s;
-      -webkit-transition: 0.3s;
-      transition: 0.3s; }
+      padding-top: 1rem; }
+    .index-2 .section-about--description:nth-of-type(2) {
+      -webkit-transition-delay: 0.5s;
+              transition-delay: 0.5s; }
 
 .index-2 .section-features_hidden .section-features--sub-header {
   visibility: hidden;
