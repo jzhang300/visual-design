@@ -49,14 +49,26 @@
 	content: "\E007";
 }
 
-.icon-newtablink:before {
+.icon-logo:before {
 	content: "\E008";
 }
 
-.icon-reset:before {
+.icon-newtablink:before {
 	content: "\E009";
 }
 
-.icon-watson-logo:before {
+.icon-pause:before {
 	content: "\E00A";
+}
+
+.icon-play:before {
+	content: "\E00B";
+}
+
+.icon-reset:before {
+	content: "\E00C";
+}
+
+.icon-watson-logo:before {
+	content: "\E00D";
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="638px" height="1066px" viewBox="0 0 638 1066" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo">
+            <rect id="Rectangle-3" stroke="#979797" x="58.5" y="502.5" width="426" height="426"></rect>
+            <rect id="Rectangle-4" fill="#BBBBBB" transform="translate(349.122723, 532.500000) rotate(-90.000000) translate(-349.122723, -532.500000) " x="-183.15957" y="243.622723" width="1064.56459" height="577.754555" rx="120"></rect>
+            <g id="Rectangle-6" transform="translate(160.000000, 351.000000)">
+                <path d="M106,640 L106,0 C282.73112,0 426,143.26888 426,320 C426,496.73112 282.73112,640 106,640 Z" id="Combined-Shape" fill="#2D2D2D"></path>
+                <circle id="Oval-2" fill="#BBBBBB" cx="106.5" cy="317.5" r="106.5"></circle>
+            </g>
+            <circle id="Oval-2" fill="#464646" cx="261.5" cy="284.5" r="211.5"></circle>
+            <circle id="Oval-2" fill="#BBBBBB" cx="261.5" cy="280.5" r="45.5"></circle>
+            <rect id="Rectangle-5" fill="#464646" x="0" y="0" width="217" height="1066"></rect>
+            <rect id="Rectangle-5" fill="#FD9768" x="157" y="0" width="109" height="1066"></rect>
+        </g>
+    </g>
+</svg>
